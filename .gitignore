@@ -5,7 +5,10 @@ src/constants/localisation/crowdInApi.ts
 sftp-config.json
 # dependencies
 /node_modules
+<<<<<<< HEAD
 /goose-uikit
+=======
+>>>>>>> 8538556071b91faa6ecef282ce1ccf3763e8e9a0
 
 # testing
 /coverage

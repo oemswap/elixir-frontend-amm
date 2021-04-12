@@ -25,7 +25,6 @@ import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
 import { TranslationsContext } from '../hooks/TranslationsContext'
 
-
 import Menu from '../components/Menu'
 
 const AppWrapper = styled.div`
