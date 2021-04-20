@@ -118,7 +118,7 @@ export default function App() {
             value={{ selectedLanguage, setSelectedLanguage, translatedLanguage, setTranslatedLanguage }}
           >
             <TranslationsContext.Provider value={{ translations, setTranslations }}>
-            <div className="connectbtn"><Button>Connect</Button></div>
+            {/* <div className="connectbtn"><Button>Connect</Button></div> */}
               <Menu>
                 <BodyWrapper>
                   <Popups />

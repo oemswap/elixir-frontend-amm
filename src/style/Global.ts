@@ -32,6 +32,20 @@ const GlobalStyle = createGlobalStyle`
       height: 40px;
       border-radius: 12px;
     }
+    img{
+      height:18px;
+    }
+  }
+  .connectBtn{
+    button{
+      height: 40px;
+    border-radius: 12px ;
+    }
+    img{
+      height:16px;
+      margin-right:8px;
+      display:none
+    }
   }
   .menulinkouter{
     position:relative;
@@ -239,7 +253,7 @@ const GlobalStyle = createGlobalStyle`
       border-bottom: solid 2px rgba(133,133,133,0.1);
     }
   } 
-  .menutopdesk div:first-child {
+  .menutoplogo{
     opacity:0;
     @media (max-width: 968px) {
       opacity:1;
